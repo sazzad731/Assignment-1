@@ -280,7 +280,7 @@ p {
   outline-style: none;
 }
 
-::placeholder{
+.donate input[type="text"]::placeholder{
   font-size: 20px;
   font-weight: 400;
   color: rgba(14, 14, 14, 30%);
@@ -288,4 +288,59 @@ p {
 
 .donate .donate-btn{
   padding: 17px 34px;
+}
+
+
+/* Newsletter section */
+.newsletter{
+  margin: 80px auto;
+  text-align: center;
+  padding: 80px 0;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+.newsletter h2{
+  margin-bottom: 16px;
+}
+
+.newsletter p{
+  color: rgba(14, 14, 14, 70%);
+  margin-bottom: 24px;
+}
+
+.newsletter .email-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.newsletter .email-box input[type="email"]{
+  width: 600px;
+  padding: 18px 40px;
+  border: none;
+  margin-right: 0px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.newsletter .email-box input[type="email"]:focus{
+  outline-style: none;
+}
+
+.newsletter .email-box input[type="email"]::placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 30%);
+}
+
+.newsletter .email-box button{
+  padding: 15px 34px;
+  margin-left: -5px;
+  border: none;
+  background-color: #006A50;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 8px 8px 0px;
 }
