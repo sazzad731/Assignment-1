@@ -161,6 +161,37 @@ p {
   background-color: #f8b415;
 }
 
+
+/* about Dr. Muhammad Yunus */
+.yunus{
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 48px 24px;
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 25px;
+}
+
+.yunus > p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 80%);
+  margin-bottom: 12px;
+}
+
+.yunus h4{
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: rgba(14, 14, 14, 80%);
+}
+
+.yunus p{
+  color: rgba(14, 14, 14, 60%);
+}
+
+
 /* Recent News section */
 .news {
   margin: 80px auto;
