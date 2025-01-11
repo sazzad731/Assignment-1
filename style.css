@@ -16,11 +16,29 @@
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
 }
+
+.btn:hover{
+  background-color: #007c5d;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+}
+
+.base-with{
+  max-width: 1536px;
+}
+
+
+
 
 /* hero section */
 .hero{
-  max-width: 1536px;
   background-color: #C6E4D6;
   margin: 80px auto;
   border-radius: 24px;
@@ -46,4 +64,98 @@
 
 .hero .info button{
   padding: 17px 34px;
+}
+
+
+
+/* Vision of Future section */
+.future{
+  margin: 0px auto 32px auto;
+}
+
+.future h2{
+  margin-bottom: 24px;
+}
+
+.future p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14,14,14,70%);
+  margin-bottom: 32px;
+}
+
+.future .future-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.future .future-cards .card{
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.future .future-cards .card img{
+  margin-bottom: 25px;
+}
+
+.future .future-cards .card h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14,14,14,80%);
+  margin-bottom: 12px;
+}
+
+.future .future-cards .card p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.future .future-cards .card button{
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.future .future-cards .topic1{
+  background-color: rgba(84, 144, 245, 20%);
+}
+
+.future .future-cards .topic1 button{
+  background-color: #5490F5;
+}
+
+.future .future-cards .topic1 button:hover{
+  background-color: #4685f1;
+}
+
+.future .future-cards .topic2{
+  background-color: #C6E4D6;
+}
+
+.future .future-cards .topic2 button{
+  background-color: #09A15C;
+}
+
+.future .future-cards .topic2 button:hover{
+  background-color: #089254;
+}
+
+.future .future-cards .topic3{
+  background-color: #F7EBCF;
+}
+
+.future .future-cards .topic3 button{
+  background-color: #FFC239;
+}
+
+.future .future-cards .topic3 button:hover{
+  background-color: #f8b415;
 }
