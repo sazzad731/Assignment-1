@@ -271,7 +271,7 @@ p {
   margin-bottom: 32px;
 }
 
-.donate .donate-mount{
+.donate .donate-amount{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,7 +279,7 @@ p {
   margin-bottom: 32px;
 }
 
-.donate .donate-mount span{
+.donate .donate-amount span{
   padding: 40px;
   border-radius: 16px;
   background-color: #ffffff;
@@ -290,11 +290,11 @@ p {
   border: 1px solid rgba(14, 14, 14, 15%);
 }
 
-/* .donate .donate-mount .active{
+.donate .donate-amount .active{
   background-color: #C6E4D6;
-} */
+}
 
-.donate .donate-mount span:hover{
+.donate .donate-amount span:hover{
   background-color: #C6E4D6;
 }
 
