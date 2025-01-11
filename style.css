@@ -8,6 +8,10 @@
   font-family: "Fira Sans", serif;
 }
 
+body{
+  background-color: #F1F1F3;
+}
+
 /* shared css */
 .btn{
   background-color: #006A50;
@@ -158,4 +162,74 @@ h2{
 
 .future .future-cards .topic3 button:hover{
   background-color: #f8b415;
+}
+
+
+
+
+/* <!-- Recent News section --> */
+.news{
+  margin: 80px auto;
+}
+
+.news h2{
+  margin-bottom: 24px;
+}
+
+.news p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14,14,14,70%);
+  margin-bottom: 32px;
+}
+
+.news .news-card{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 48px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
+.news .row-revers{
+  flex-direction: row-reverse;
+}
+
+.news .news-card > img{
+  border-radius: 24px;
+}
+
+.news .row-revers > img{
+  width: 408px;
+  height: 306px;
+  object-fit: cover;
+}
+
+.news .news-card h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14,14,14,80%);
+  margin-bottom: 12px;
+}
+
+.news .news-card .al-jazeera{
+  margin-bottom: 12px;
+}
+
+.news .news-card .date-time{
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14,14,14,70%);
+}
+
+.news .news-card .date-time .date{
+  margin-right: 12px;
+}
+
+.news .news-card .news-btn{
+  padding: 13px 26px;
 }
